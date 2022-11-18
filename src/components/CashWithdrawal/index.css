@@ -1,0 +1,98 @@
+.mainBgContainer {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bgContainer {
+  background-color: #150b3e;
+  width: 85%;
+  padding: 30px;
+  border-radius: 14px;
+}
+@media screen and (min-width: 576px) {
+  .bgContainer {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bgContainer {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .bgContainer {
+    width: 40%;
+  }
+}
+.nameContainer {
+  display: flex;
+}
+.userIcon {
+  color: #7c3aed;
+  background-color: #c7d2fe;
+  font-family: roboto;
+  font-size: 16px;
+  font-size: 300;
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.username {
+  color: #c7d2fe;
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.balanceContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.balanceText {
+  color: #585076;
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: 500;
+}
+.moneyText {
+  color: #d4d2db;
+  font-family: roboto;
+  font-size: 28px;
+}
+.rupeeText {
+  color: #585076;
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.withdrawText {
+  color: #c4c4c4;
+  font-family: roboto;
+  font-size: 24px;
+  font-weight: 500;
+}
+.chooseText {
+  color: #585076;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 500;
+}
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
